@@ -4,4 +4,5 @@ import cv2
 
 def do_gray(frame):
     img_gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
-    return img_gray
+    hsv = cv2.cvtColor(frame, cv2.COLOR_BGR2HSV)hsv = cv2.cvtColor(frame, cv2.COLOR_BGR2HSV)
+    return hsv
